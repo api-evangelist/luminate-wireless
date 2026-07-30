@@ -1,4 +1,16 @@
 aid: luminate-wireless
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luminate-wireless.png
 name: Luminate Wireless
 description: 'Luminate Wireless is a company surfaced as a portfolio company of gv and added to the API
   Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the
@@ -12,7 +24,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Defunct company (millimeter-wave point-to-point wireless, GV portfolio).
+    Primary domain luminatewireless.com no longer resolves to the company: it 301
+    chain-redirects through parked/spam domains (bvalphaserver.com -> kipas899.org).
+    No live website, developer portal, documentation, or API surface exists.
+    No artifacts to search, generate, or derive.'
 tags:
 - Company
 - Enterprise
